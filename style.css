@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body{
+    background-color: #f00;
+}
+
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    text-shadow: 0px 4px 6px rgb(0, 0, 0);
+}
+
+h2{
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    text-align: center;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    text-align: center;
+}
+
+.h_amigos{
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+}
+
+.personajes{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 columnas */
+    gap: 20px;
+    list-style: none;
+}
+
+.luffyimg {
+    text-align: center;
+}
+
+.luffyimg img {
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.3));
+}
+
+.personajes li{
+    text-align: center;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.3));
+}
+
+.personajes img{
+    border-radius: 10px;
+}
+
+.Zoro{
+    color: greenyellow;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Sanji{
+    color: yellow;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Nami{
+    color: orange;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Usopp{
+    color: rgb(227, 187, 117);
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Franky{
+    color: skyblue;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Robin{
+    color: blueviolet;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Chopper{
+    color: bisque;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Brook{
+    color: rgb(206, 140, 59);
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Jimbei{
+    color: blue;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Loki{
+    color: rgb(210, 208, 208);
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.mugiwara{
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.formulario{
+    background: black;
+    text-align: center;
+    padding: 10px 0px 500px 0px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.ftext {
+    margin: 5px;
+    padding: 6px 9px;
+    border: none;
+    border-bottom: 1px solid red;
+    background: transparent;
+    color: red;
+    border-radius: 5px;
+    font-family: Poppins;
+}
+
+.fbutton{
+    background: transparent;
+    color: red;
+    font-family: Poppins;
+    margin: 5px;
+    border-color: red;
+}
+
+.Footer{ /*cambio con ia*/
+    background: rgb(255, 0, 0);
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.Foot{  /*cambio con ia*/
+    margin: 0;
+    margin-right: auto;
+}
+
+/* Media query para hacer el formulario responsive en celulares/pantallas pequeñas */
+@media (max-width: 600px) {
+    .ftext, .fbutton {
+        display: block;
+        width: 80%;
+        margin: 15px auto;
+    }
+}
